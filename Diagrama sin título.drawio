@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T22:18:55.222Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" version="21.8.2" etag="n15DcpOckYEM2wSYYPuy" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T22:24:10.867Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="jx6ifuzgFOMyRGGorL1n" version="21.8.2" type="github">
   <diagram name="Página-1" id="nZt7ozuQiOeEMMBHgbbl">
-    <mxGraphModel>
+    <mxGraphModel dx="1188" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-1" value="Archivos sitio web Cibertec" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_beanstalk;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="67.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k_vlisuOxIlpBLGz2NE_-2" target="k_vlisuOxIlpBLGz2NE_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="191" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.config_rule;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="366.75" y="280" width="55.5" height="72" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
