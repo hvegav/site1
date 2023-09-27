@@ -1,20 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T22:24:10.867Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="jx6ifuzgFOMyRGGorL1n" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T22:32:23.387Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="zBmiPah4z7cqf1y-oKfh" version="21.8.2" type="github" pages="2">
   <diagram name="Página-1" id="nZt7ozuQiOeEMMBHgbbl">
     <mxGraphModel dx="1188" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="k_vlisuOxIlpBLGz2NE_-1" value="Archivos sitio web Cibertec" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_beanstalk;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="170" width="67.5" height="93" as="geometry" />
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-1" value="Beanstalk: Archivos sitio web Cibertec" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_beanstalk;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180.5" width="67.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="k_vlisuOxIlpBLGz2NE_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k_vlisuOxIlpBLGz2NE_-2" target="k_vlisuOxIlpBLGz2NE_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_vlisuOxIlpBLGz2NE_-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-2" value="Balanceador AWS-Cibertec" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="191" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="k_vlisuOxIlpBLGz2NE_-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.config_rule;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="366.75" y="280" width="55.5" height="72" as="geometry" />
+          <mxGeometry x="320" y="310" width="55.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-5" value="Cloudflare (www.cibertec.edu.pe)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAtCAYAAAA5reyyAAABW2lDQ1BJQ0MgUHJvZmlsZQAAKJF1kE0rRHEUxn/jpQkTFkKxmIWsjLgU2yFJTbp5KSzUvdcYalz/7lxkRWE/xcZObNhasJF8ARFlIcnOB5BJoevcGcwgp07Pr6dzTk8HikKGUskSYM52naH+nvDY+EQ4+EgZDVQQJGBYKRXV9ZiM8KU/K3NDwNfriH/ras081SZHVhZf9ivrDg7P/87/qPKpeMoSfZPWLOW4EGgT1pdc5fOqcI0joYS3fE7keN9nM8cn2ZmRoV7hS+Fqa8aYEn4QbjEL/EQBzyUXrM8MfvpQ3B4dFq2VbiRGH4OE0dHoYoYI7Uiqf3Y6szu9zKNYxmGWhOy4sh8VR5EkLjyAjUUrLcKaXNPo8H/9+4d5b34Xup+hOJ33zG043oD627zXtANV63B0oQzH+P5sIFOSmu7QchzqgdJ7z3tqhuAmvKc973XX89735P4dnNkfp7JkiluWOHEAAABWZVhJZk1NACoAAAAIAAGHaQAEAAAAAQAAABoAAAAAAAOShgAHAAAAEgAAAESgAgAEAAAAAQAAAFCgAwAEAAAAAQAAAC0AAAAAQVNDSUkAAABTY3JlZW5zaG90S5DFOQAAAdRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDYuMC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+NDU8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+ODA8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpVc2VyQ29tbWVudD5TY3JlZW5zaG90PC9leGlmOlVzZXJDb21tZW50PgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KZlHYyQAABVRJREFUaAXtmmtsFFUUx/93Zre7bfoQWymYQusDtTVKUYJfEDXRqp9qjEhi0MRoNNUPftAPRqNRjIkxamKjIT6KJBJFDVjDIxUjlYRipaAgLUXAlkehSlvAsttuZ2fmemb6YGa3Xea17ZDMTSYzc+85957723PvPffOMk4JQXJMQHCsGSjqBAKALh0hABgAdEnApXrggQFAlwRcqgceGAB0ScClesil/rSoq6fboRzZCbW7FWr/MfD4WUCKg+XNAssvAStdAPH6OyEuWAZWNGdabBpvhPl2J8JVyPsaIbd8AbVn/7i9me9MgHjz/QjfVQdhXnVmWY9KfQlQ7T0IaePLUE/uc9xNcdHDyKldBRYtdFyHFUXfAZT3fqfDg5K0Yn9GGVY0F5GVn2TVG30FMLm9Hslt72WEYrswko/ok2shVCyxrWpFwTdhjNy23nt4GoGRGBJrHod6usMKD9syvgConvgd0vev2DbesoI0jJGvniOYccsqVgVnHqAqY4QWDNA9m4n3d0Pa8pbnTcw4QLl1Hfg/hzzv2GQVynu+AR84NlmR47ysB9Ja0Ksc3qFfiA+AlVwDYW4VQtW1QCiCZEuDY+NtK6oKpJ/rEXn0A9uqUylkdRWW276GtOkN2jUMp7XPCmZT0FsDzQOnNYVzkfc6BebhqCfNZg2g1PgqwfnSEyO9riTyRAPEqvs8qTYrc6DSvtW38DRqao/zHU4qde/nQNrDSo2vpbbjq3fxxnvATzRD2UWrcqQIyKMDiYJyCGVLwa6+g+bmXMv2eg5Q7fkTPNZn2YDpFmQl10IoXwyl5U1wOQFoV/xf8L4OqF1bwQieULkCQtVKmifzLmme50NY+XvXJRudSYHQ4uUAjRLe+9ukZnB5GMqBtZB/WE4yuyeVMWZ6DpAnBo31++uZVuDQ7QTm3BHwxPmMtvHEOSjNL0I9vCGjnOcABQpP/JrCd9fRXEf2xXotmcgpblR2v08HuU1TyrufA2k4KF2t5PZboPZ20olx15SNzWSBUHYrwsue1U3g8pAtU9TWd8AKK8CKb0rTcxUHqgROC5S1A1A/J+10OvLUuouHq4mzkDfW0lSoWDabFVci9ODnJM9MOo6HcHLHaiQ+W+FveDl5CNe8hOgz316Ep3U/eiWE6jpiYYZhIpPywgc6wY83p+RSFU6+iSSbP0Lyx3fTKrOcoW2jxBxAoN9PEKkfon7XnmF81so0mZQ84zsz6YzKah+ahPLbIF5HcV1+8ZRm8f528FO/gv9H044UA0/G9Lv+LF3QV2ujsjB7IcSa1cYs+wCVozsx0kAxEs19ThKbU4ncF2hStvHrO2nHrY6ytx5q53pzNfTRKvzIZgq+r5jIt+eBBG34wwfcHz9pXjN+GbzL7E1jMmPletmYxxo9cNxrR8s1nRCE0hv0va5QtnCio6kPPN5LcV4beD+dVA/1jXpfkg5cyRNBnsiT6QcgWh3i0lX0eeDeiepsrcLKoe3u4WlNa5P3JBN4pn96Ziqb6M3Yg9LRhOQvHyPnobcRWvKYuZiGpnJgDfhfG2gQOTjEJfDGZGsRUQ5uM+r6+5l+IP0EWjKELENnIDc9TUOTDladwKMe8+F+U7/tATy+x6Ts+xf6BqJ0j23ZaGch//Q8+OBJd2YrkknfFkA+eMakfDm8sGiBbqay/1PwC6dcm8xyRusbr8gWQO3/KJdbYrPmgZ/vgnp0kzemF8431WNrEWHFFbRqdZsq8POLMH8RbcFKof5BsZvDsMvYP0YrPLvqFmOW/TjQpB28wN4QDoClEQgApiGxlxEAtMcrTToAmIbEXkYA0B6vNOn/AcUE3yaiQOblAAAAAElFTkSuQmCC;" vertex="1" parent="1">
+          <mxGeometry x="610" y="204.5" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k_vlisuOxIlpBLGz2NE_-5" target="k_vlisuOxIlpBLGz2NE_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-7" value="Regla 1: Solo acepta IPs cibertec" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-8" value="Beanstalk: Archivos sitio web Cibertec" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_beanstalk;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="74" y="622" width="67.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k_vlisuOxIlpBLGz2NE_-10" target="k_vlisuOxIlpBLGz2NE_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-10" value="Balanceador AWS-Cibertec" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="334" y="632.5" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.config_rule;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="283.5" y="550" width="55.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-12" value="Cloudflare (www.cibertec.edu.pe)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="674" y="846" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-14" value="Regla 1: Solo acepta IPs cibertec" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="343.5" y="550" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-15" value="Cloudfront: Nuevo Sitio" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="463.5" y="822" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-16" value="S3: Archivos nueva sección" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184" y="812" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k_vlisuOxIlpBLGz2NE_-15" target="k_vlisuOxIlpBLGz2NE_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k_vlisuOxIlpBLGz2NE_-15" target="k_vlisuOxIlpBLGz2NE_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k_vlisuOxIlpBLGz2NE_-12" target="k_vlisuOxIlpBLGz2NE_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-20" value="Regla 2: Acepta IPs de CloudFront" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="592" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-21" value="Esquema actual portal Cibertec" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="324.5" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k_vlisuOxIlpBLGz2NE_-22" value="Propuesta Migración Progresiva&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="490" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AOrDJ4huASHTz19T6qwO" name="Página-2">
+    <mxGraphModel dx="1188" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-1" value="Beanstalk: Archivos sitio web Cibertec" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_beanstalk;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="74" y="222" width="67.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tbOX32wqUVnUC8LKfgUK-3" target="tbOX32wqUVnUC8LKfgUK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-3" value="Balanceador AWS-Cibertec" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="334" y="232.5" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.config_rule;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="283.5" y="150" width="55.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-5" value="Cloudflare (www.cibertec.edu.pe)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="674" y="446" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-6" value="Regla 1: Solo acepta IPs cibertec" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="343.5" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-7" value="Cloudfront: Nuevo Sitio" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="463.5" y="422" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-8" value="S3: Archivos nueva sección" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184" y="412" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tbOX32wqUVnUC8LKfgUK-7" target="tbOX32wqUVnUC8LKfgUK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tbOX32wqUVnUC8LKfgUK-7" target="tbOX32wqUVnUC8LKfgUK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tbOX32wqUVnUC8LKfgUK-5" target="tbOX32wqUVnUC8LKfgUK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-12" value="Regla 2: Acepta IPs de CloudFront" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="192" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbOX32wqUVnUC8LKfgUK-13" value="Propuesta Migración Progresiva&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
